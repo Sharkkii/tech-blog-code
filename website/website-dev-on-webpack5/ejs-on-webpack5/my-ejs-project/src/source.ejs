@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My EJS Project</title>
+  </head>
+  <body>
+    <h1>Hello, Webpack!</h1>
+    <ul>
+      <% let plugins = [ "html-webpack-plugin", "html-loader", "template-ejs-loader" ]; %>
+      <% for (let idx = 0; idx < plugins.length; idx++) { %>
+        <li><p>Hello, <%= plugins[idx] %>!</p></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
