@@ -1,0 +1,11 @@
+$color-red: red;
+$color-green: green;
+
+#main {
+  h1 {
+    color: $color-red;
+  }
+  p {
+    color: $color-green;
+  }
+}
