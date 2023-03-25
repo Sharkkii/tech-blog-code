@@ -1,0 +1,14 @@
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+#jpeg-image {
+  background-image: url(../assets/images/favicon-css.jpg);
+  background-size: cover;
+}
+
+#png-image {
+  background-image: url(../assets/images/favicon-css.png);
+  background-size: cover;
+}
